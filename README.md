@@ -4,6 +4,16 @@ File structure generated from `yarn create vite` with the Typescript and React p
 
 TSConfig and Yarn config are from my project's repo
 
+## What should happen
+
+The console log in [App.tsx](./src/App.tsx) should be of a function
+
+## What actually happens
+
+The console log in [App.tsx](./src/App.tsx) is `undefined`
+
+## Bug hack reproduction
+
 To generate a patch to replicate the confirmation that the `browser` field is being resolved, simply do the following:
 
 1. Run the following
